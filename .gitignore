@@ -11,6 +11,12 @@
 # production
 /build
 
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
 # misc
 .DS_Store
 .env.local
@@ -18,6 +24,5 @@
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# config
+/src/util/firebaseConfig.js
