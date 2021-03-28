@@ -50,6 +50,7 @@ function App() {
   return (
     <div className="App">
       <div className="center-box">
+        <h1>Link Shortener</h1>
         <form onSubmit={shortenLink}>
           <label htmlFor="input-longurl">Long Link</label>
           <input

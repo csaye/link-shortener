@@ -1,0 +1,33 @@
+.App {
+  height: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.App .center-box {
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  background: #efefef;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.App .error-text {
+  color: red;
+}
+
+.App h1 {
+  margin: 0 0 10px 0;
+}
+
+.App form {
+  display: flex;
+  flex-direction: column;
+}
+
+.App form button {
+  margin-top: 10px;
+  height: 60px;
+  font-size: 32px;
+}
